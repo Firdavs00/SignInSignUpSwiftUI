@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		15DE19DA26C4E1F500F7EBF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE19D926C4E1F500F7EBF1 /* AppDelegate.swift */; };
 		15DE19DC26C4E1F500F7EBF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE19DB26C4E1F500F7EBF1 /* SceneDelegate.swift */; };
-		15DE19DE26C4E1F500F7EBF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE19DD26C4E1F500F7EBF1 /* ContentView.swift */; };
 		15DE19E126C4E1F500F7EBF1 /* SignInSignUpSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15DE19DF26C4E1F500F7EBF1 /* SignInSignUpSwiftUI.xcdatamodeld */; };
 		15DE19E326C4E1F600F7EBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DE19E226C4E1F600F7EBF1 /* Assets.xcassets */; };
 		15DE19E626C4E1F600F7EBF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DE19E526C4E1F600F7EBF1 /* Preview Assets.xcassets */; };
 		15DE19E926C4E1F600F7EBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DE19E726C4E1F600F7EBF1 /* LaunchScreen.storyboard */; };
 		15DE19F426C4E1F600F7EBF1 /* SignInSignUpSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE19F326C4E1F600F7EBF1 /* SignInSignUpSwiftUITests.swift */; };
 		15DE19FF26C4E1F600F7EBF1 /* SignInSignUpSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE19FE26C4E1F600F7EBF1 /* SignInSignUpSwiftUIUITests.swift */; };
+		15DE1A0F26C4E25C00F7EBF1 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE1A0E26C4E25C00F7EBF1 /* SignInScreen.swift */; };
+		15DE1A1126C4E26C00F7EBF1 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE1A1026C4E26C00F7EBF1 /* SignUpScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		15DE19D626C4E1F500F7EBF1 /* SignInSignUpSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInSignUpSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DE19D926C4E1F500F7EBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15DE19DB26C4E1F500F7EBF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15DE19DD26C4E1F500F7EBF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15DE19E026C4E1F500F7EBF1 /* SignInSignUpSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SignInSignUpSwiftUI.xcdatamodel; sourceTree = "<group>"; };
 		15DE19E226C4E1F600F7EBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15DE19E526C4E1F600F7EBF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		15DE19FA26C4E1F600F7EBF1 /* SignInSignUpSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInSignUpSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DE19FE26C4E1F600F7EBF1 /* SignInSignUpSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSignUpSwiftUIUITests.swift; sourceTree = "<group>"; };
 		15DE1A0026C4E1F700F7EBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DE1A0E26C4E25C00F7EBF1 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		15DE1A1026C4E26C00F7EBF1 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,11 @@
 		15DE19D826C4E1F500F7EBF1 /* SignInSignUpSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				15DE1A0D26C4E23A00F7EBF1 /* screens */,
+				15DE1A0C26C4E21D00F7EBF1 /* apputils */,
 				15DE19D926C4E1F500F7EBF1 /* AppDelegate.swift */,
 				15DE19DB26C4E1F500F7EBF1 /* SceneDelegate.swift */,
-				15DE19DD26C4E1F500F7EBF1 /* ContentView.swift */,
-				15DE19E226C4E1F600F7EBF1 /* Assets.xcassets */,
-				15DE19E726C4E1F600F7EBF1 /* LaunchScreen.storyboard */,
 				15DE19EA26C4E1F600F7EBF1 /* Info.plist */,
-				15DE19DF26C4E1F500F7EBF1 /* SignInSignUpSwiftUI.xcdatamodeld */,
 				15DE19E426C4E1F600F7EBF1 /* Preview Content */,
 			);
 			path = SignInSignUpSwiftUI;
@@ -137,6 +137,25 @@
 				15DE1A0026C4E1F700F7EBF1 /* Info.plist */,
 			);
 			path = SignInSignUpSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		15DE1A0C26C4E21D00F7EBF1 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				15DE19E726C4E1F600F7EBF1 /* LaunchScreen.storyboard */,
+				15DE19E226C4E1F600F7EBF1 /* Assets.xcassets */,
+				15DE19DF26C4E1F500F7EBF1 /* SignInSignUpSwiftUI.xcdatamodeld */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		15DE1A0D26C4E23A00F7EBF1 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				15DE1A0E26C4E25C00F7EBF1 /* SignInScreen.swift */,
+				15DE1A1026C4E26C00F7EBF1 /* SignUpScreen.swift */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DE1A1126C4E26C00F7EBF1 /* SignUpScreen.swift in Sources */,
 				15DE19DA26C4E1F500F7EBF1 /* AppDelegate.swift in Sources */,
+				15DE1A0F26C4E25C00F7EBF1 /* SignInScreen.swift in Sources */,
 				15DE19DC26C4E1F500F7EBF1 /* SceneDelegate.swift in Sources */,
 				15DE19E126C4E1F500F7EBF1 /* SignInSignUpSwiftUI.xcdatamodeld in Sources */,
-				15DE19DE26C4E1F500F7EBF1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
